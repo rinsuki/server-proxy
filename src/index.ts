@@ -1,6 +1,11 @@
 #!/usr/bin/env node
 import * as net from "net"
 
+if (process.argv.length < 5) {
+    console.log("usage: server-tcp-proxy LOCAL_LISTEN_PORT HTTP_PROXY_HOST:PORT REMOTE_HOST:PORT ")
+    process.exit(1)
+}
+
 const LISTEN_PORT = process.argv[2]
 const HTTP_PROXY = process.argv[3].split(":")
 const REMOTE_HOST = process.argv[4]

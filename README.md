@@ -3,6 +3,12 @@
 指定された TCP ポートで接続を待ち受け、接続されたら指定されたホストとポートに指定された HTTP プロキシを通じてコネクションを確立します。
 Node.js製です。
 
+## how to install
+
+```
+npm install -g server-tcp-proxy
+```
+
 ## how to use
 
 ```
