@@ -1,0 +1,19 @@
+{
+  "name": "server-tcp-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "tsc"
+  },
+  "bin": {
+    "server-tcp-proxy": "dist/index.js"
+  },
+  "author": "rinsuki",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "typescript": "^2.6.2"
+  }
+}
