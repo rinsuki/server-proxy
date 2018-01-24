@@ -1,11 +1,11 @@
 {
   "name": "server-tcp-proxy",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "tsc"
+    "prepare": "tsc"
   },
   "bin": {
     "server-tcp-proxy": "dist/index.js"
